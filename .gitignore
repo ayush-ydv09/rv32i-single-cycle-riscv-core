@@ -1,0 +1,39 @@
+# ============================================================
+# .gitignore — RISC-V Single-Cycle Core
+# ============================================================
+
+# Simulation outputs
+sim/sim.out
+sim/wave.vcd
+sim/program.hex
+*.vcd
+*.lxt
+*.lxt2
+*.fst
+
+# Icarus Verilog
+*.out
+a.out
+
+# GTKWave
+*.gtkw
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / IDE
+.vscode/
+*.swp
+*.swo
+*~
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Build artifacts
+*.log
